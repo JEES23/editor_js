@@ -1,0 +1,22 @@
+.option {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.payPrice {
+  border: 1px solid #ccc;
+  display: inline-flex;
+  align-items: center;
+  width: 80px;
+}
+
+.payPriceInput {
+  border: none;
+  padding: 5px;
+  width: 30px;
+}
+
+.XLP {
+  padding: 5px;
+}
