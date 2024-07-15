@@ -1,11 +1,11 @@
 import { ChangeEvent, useState, useCallback, FormEvent } from 'react';
-import './App.css';
+import './E_setting.css';
 
 const costOption = ["무료 회차", "유료 회차", "멤버십 회차"];
 const timeOption = ["즉시 업로드", "예약 업로드"];
 
 
-const App =() => {
+const E_setting =() => {
   const [costOptionCheckList, setCostOptionCheckList] = useState<string[]>([]);
   const [timeOptionCheckList, setTimeOptionCheckList] = useState<string[]>([]);
   const [payPrice, setPayPrice] = useState<string>('');
@@ -122,4 +122,4 @@ const App =() => {
   
 }
 
-export default App;
+export default E_setting;
